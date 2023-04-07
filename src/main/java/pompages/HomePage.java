@@ -72,9 +72,6 @@ public class HomePage {
 		
 		skillraryDemoAppLink.click();
 		
-		public void searchFor(String data) {
-			
-			search.
-		}
+		
 	}
 }
