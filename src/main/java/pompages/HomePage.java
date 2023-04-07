@@ -27,6 +27,14 @@ public class HomePage {
 	
 	private WebElement skillraryDemoAppLink;
 	
+	@FindBy(xpath="")
+	
+	private WebElement searchTF;
+	
+	@FindBy(xpath="")
+	
+	private WebElement SearchButton;
+	
 	//Initialization
 	
 	public HomePage(WebDriver driver) {
@@ -63,5 +71,10 @@ public class HomePage {
 	public void clickSkillraryDemoApp() {
 		
 		skillraryDemoAppLink.click();
+		
+		public void searchFor(String data) {
+			
+			search.
+		}
 	}
 }
